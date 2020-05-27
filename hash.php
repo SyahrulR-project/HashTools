@@ -24,7 +24,7 @@ echo "------------------------\n";
 }
 else if ($pilih == 2)
 {
-echo "Input your words/password to hashing md4 : ";
+echo "Input your words/password to hashing crc32 : ";
 $hash = trim(fgets(STDIN));
 echo "------------------------\n";
 echo "Result : ".crc32($hash)."\n";
